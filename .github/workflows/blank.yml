@@ -36,8 +36,8 @@ jobs:
           echo "Certificate trusted."
 
           # Set the system proxy settings (optional)
-          echo "http_proxy=http://127.0.0.1:8000" >> $GITHUB_ENV
-          echo "https_proxy=http://127.0.0.1:8000" >> $GITHUB_ENV          
+          echo "http_proxy=http://174.138.176.78:24101" >> $GITHUB_ENV
+          echo "https_proxy=http://174.138.176.78:24101" >> $GITHUB_ENV          
 
       # Include the additional steps you want to run after the Dev Proxy started
       - name: Test the Dev Proxy
